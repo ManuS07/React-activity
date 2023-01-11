@@ -1,0 +1,53 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: rgb(81,243,162);
+    background: linear-gradient(45deg,rgba(81,243,162,1)22%,rgba(96,233,235,1),54%,rgba(0,255,247,1)100%);
+
+}
+.content-container{
+    display: flex;
+    margin-top: 125px;
+    height: 45vh;
+    border-radius: 19px;
+    min-width: 270px;
+    background-color: white;
+    flex-direction: column;
+    text-align: center;
+}
+.heading{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(118,123,123);
+}
+.counter{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: black;
+}
+.increase-button{
+    border-width: 0;
+    border-radius: 16px;
+    color: white;
+    height: 40px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(10,198,113);
+}
+.decrease-button{
+    border-width: 0;
+    border-radius: 16px;
+    color: white;
+    height: 40px;
+    width: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(244,41,41);
+}
